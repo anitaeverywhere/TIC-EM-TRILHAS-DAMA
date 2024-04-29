@@ -1,0 +1,438 @@
+Unity Editor version:    2021.3.36f1 (7a0645017be0)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4.1 (Build 23E224)
+Darwin version:          23.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.36f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/victorvasconcelos/Developer/Unity/Trilha Rougue
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51598
+Successfully changed project path to: /Users/victorvasconcelos/Developer/Unity/Trilha Rougue
+/Users/victorvasconcelos/Developer/Unity/Trilha Rougue
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8591260352] Host "[IP] 10.49.50.57 [Port] 0 [Flags] 2 [Guid] 1262289984 [EditorId] 1262289984 [Version] 1048832 [Id] OSXEditor(0,Elds-Victor-M1Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8591260352] Host "[IP] 10.49.50.57 [Port] 0 [Flags] 2 [Guid] 1262289984 [EditorId] 1262289984 [Version] 1048832 [Id] OSXEditor(0,Elds-Victor-M1Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 82.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.36f1 (7a0645017be0)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.36f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/victorvasconcelos/Developer/Unity/Trilha Rougue/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.36f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.36f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56523
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.36f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001144 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 83.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.467 seconds
+Domain Reload Profiling:
+	ReloadAssembly (467ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (329ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (74ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 85.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1200ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1068ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (745ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (529ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.36f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5588.
+Memory consumption went from 200.9 MB to 200.3 MB.
+Total: 2.849834 ms (FindLiveObjects: 0.207791 ms CreateObjectMapping: 0.062625 ms MarkObjects: 2.337917 ms  DeleteObjects: 0.240875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 146183.185191 seconds.
+  path: Assets/3D Model/Skeleton_Axe.fbx
+  artifactKey: Guid(28643d52a55f44bcbb0bbca61ed63370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Skeleton_Axe.fbx using Guid(28643d52a55f44bcbb0bbca61ed63370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f441129617a36ec76b490fea696a645e') in 0.893242 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 18.960860 seconds.
+  path: Assets/3D Model/Enemy
+  artifactKey: Guid(1111568c5c07b454887244b48c108688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Enemy using Guid(1111568c5c07b454887244b48c108688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6755a2dc43ad66e582ddd3254f294d') in 0.002099 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.488523 seconds.
+  path: Assets/3D Model/Skeleton_Warrior.fbx
+  artifactKey: Guid(473593569a71d4d78bb284fd8d2e83e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Skeleton_Warrior.fbx using Guid(473593569a71d4d78bb284fd8d2e83e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e03b9931b920930fb3bf15c55cb277') in 0.250825 seconds 
+Number of asset objects unloaded after import = 228
+========================================================================
+Received Import Request.
+  Time since last request: 7.635650 seconds.
+  path: Assets/3D Model/Enemy/Skeleton_Warrior.fbx
+  artifactKey: Guid(473593569a71d4d78bb284fd8d2e83e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Enemy/Skeleton_Warrior.fbx using Guid(473593569a71d4d78bb284fd8d2e83e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1bdb82611dc925e5b6948deedc1430') in 0.139252 seconds 
+Number of asset objects unloaded after import = 228
+========================================================================
+Received Import Request.
+  Time since last request: 44.449583 seconds.
+  path: Assets/3D Model/Scenario
+  artifactKey: Guid(0e1fb5a0e7977487780d5ffb05ade230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario using Guid(0e1fb5a0e7977487780d5ffb05ade230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbf796d07b0478ae629e574d45988b2') in 0.007178 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.673659 seconds.
+  path: Assets/3D Model/Scenario/banner_blue.fbx
+  artifactKey: Guid(fb55264d37b464941884ad73e1998e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_blue.fbx using Guid(fb55264d37b464941884ad73e1998e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c8623a3c5700c3e7cc5c732ccfd64d') in 0.058065 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.447258 seconds.
+  path: Assets/3D Model/Scenario/banner_brown.fbx
+  artifactKey: Guid(df4fe2485e276447bbd50f68cbbd8871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_brown.fbx using Guid(df4fe2485e276447bbd50f68cbbd8871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222d94bd9162b1043c4ed88d53b46497') in 0.023518 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.221302 seconds.
+  path: Assets/3D Model/Scenario/banner_green.fbx
+  artifactKey: Guid(f2e7620754c7744ac826252a00276074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_green.fbx using Guid(f2e7620754c7744ac826252a00276074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9037ed7ed998178aca0c4cf9361d1ec4') in 0.014799 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.210502 seconds.
+  path: Assets/3D Model/Scenario/banner_patternA_blue.fbx
+  artifactKey: Guid(a362971e26e0945b5acaa969fd2028f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternA_blue.fbx using Guid(a362971e26e0945b5acaa969fd2028f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035cd13a3e56da4220c9d647161c2ace') in 0.016043 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.173600 seconds.
+  path: Assets/3D Model/Scenario/banner_patternA_brown.fbx
+  artifactKey: Guid(48313418e12154f5e9e3baae1ca73b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternA_brown.fbx using Guid(48313418e12154f5e9e3baae1ca73b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbe6ca439d0516973c7f404a7fa9efe') in 0.015212 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.170643 seconds.
+  path: Assets/3D Model/Scenario/banner_patternA_green.fbx
+  artifactKey: Guid(f322cdc08b62f4c18b7585d71bb36d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternA_green.fbx using Guid(f322cdc08b62f4c18b7585d71bb36d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b17d6447947263e70c07eb11bac6d50') in 0.014055 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.133259 seconds.
+  path: Assets/3D Model/Scenario/banner_patternA_red.fbx
+  artifactKey: Guid(4280b6b36e6be43b6992b5971b2740f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternA_red.fbx using Guid(4280b6b36e6be43b6992b5971b2740f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e6629b65d89943991752bc66960485') in 0.012135 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.216820 seconds.
+  path: Assets/3D Model/Scenario/banner_patternA_white.fbx
+  artifactKey: Guid(9753cf1402179435d94c05aad47cad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternA_white.fbx using Guid(9753cf1402179435d94c05aad47cad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd19db8292a261ff9ce380023869eb4') in 0.016527 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.161474 seconds.
+  path: Assets/3D Model/Scenario/banner_patternA_yellow.fbx
+  artifactKey: Guid(9020836c6408a4157a022a6e2d8f90aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternA_yellow.fbx using Guid(9020836c6408a4157a022a6e2d8f90aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf952afa84903c244d839b879d3b21e2') in 0.015460 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.157713 seconds.
+  path: Assets/3D Model/Scenario/banner_patternB_blue.fbx
+  artifactKey: Guid(2ee3ceccae26847e8a43f53cdcecd1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternB_blue.fbx using Guid(2ee3ceccae26847e8a43f53cdcecd1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfd2fbec4eb2486a6accaf2d8a7cd9f') in 0.015078 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.162194 seconds.
+  path: Assets/3D Model/Scenario/banner_patternB_brown.fbx
+  artifactKey: Guid(7fce36ffd95b944e099e43c39b7a6a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternB_brown.fbx using Guid(7fce36ffd95b944e099e43c39b7a6a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2d8e2f49a8c752ed698a85e45c9321') in 0.015102 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.147985 seconds.
+  path: Assets/3D Model/Scenario/banner_patternB_green.fbx
+  artifactKey: Guid(6a97734bd83e44596845d1c28d90be59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternB_green.fbx using Guid(6a97734bd83e44596845d1c28d90be59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c372f74c126f0a5100b93fc66aeba419') in 0.013397 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.112949 seconds.
+  path: Assets/3D Model/Scenario/banner_patternB_red.fbx
+  artifactKey: Guid(edbca705b4ebc4d5eb41098fb54904d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternB_red.fbx using Guid(edbca705b4ebc4d5eb41098fb54904d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb6edfc4487d1cfba24c8215c0b6c50') in 0.014284 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.482365 seconds.
+  path: Assets/3D Model/Scenario/banner_patternB_white.fbx
+  artifactKey: Guid(5dcf0096807cd4793b47c6ffd3ccef06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternB_white.fbx using Guid(5dcf0096807cd4793b47c6ffd3ccef06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860c20fc189d5c2c3d6f18e6a0c67184') in 0.014389 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.058005 seconds.
+  path: Assets/3D Model/Scenario/banner_patternB_yellow.fbx
+  artifactKey: Guid(f08c91ea5f6de4affa8742a9d4c99a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternB_yellow.fbx using Guid(f08c91ea5f6de4affa8742a9d4c99a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7a603e5d498336152cbfdb0627a025') in 0.014808 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.059118 seconds.
+  path: Assets/3D Model/Scenario/banner_patternC_blue.fbx
+  artifactKey: Guid(fb69ea5aa6ea74f5eabc528075542993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternC_blue.fbx using Guid(fb69ea5aa6ea74f5eabc528075542993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b599dd6c9cc3d7a8934d5b3c087d8a') in 0.013416 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.066260 seconds.
+  path: Assets/3D Model/Scenario/banner_patternC_brown.fbx
+  artifactKey: Guid(aeb66c23e4c9b429cab3cfc165894ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternC_brown.fbx using Guid(aeb66c23e4c9b429cab3cfc165894ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd7ccf7eba269b778d93bdf4a33bb70') in 0.021741 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.056320 seconds.
+  path: Assets/3D Model/Scenario/banner_patternC_green.fbx
+  artifactKey: Guid(cfd7003353ccc48f582d19adc1e9d372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternC_green.fbx using Guid(cfd7003353ccc48f582d19adc1e9d372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642145bf30ffb6c1809b6bed6e85fa29') in 0.013029 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.064762 seconds.
+  path: Assets/3D Model/Scenario/banner_patternC_red.fbx
+  artifactKey: Guid(996ec406f03d94390bcffdd75060f444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternC_red.fbx using Guid(996ec406f03d94390bcffdd75060f444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea4c7d3ab8d42ac5830390a04bcffb3') in 0.015019 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.063263 seconds.
+  path: Assets/3D Model/Scenario/banner_patternC_white.fbx
+  artifactKey: Guid(c0540ca1e625b499ebfd50863a9a119c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternC_white.fbx using Guid(c0540ca1e625b499ebfd50863a9a119c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8856f43f30985da04aee140910688a') in 0.012687 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.067038 seconds.
+  path: Assets/3D Model/Scenario/banner_patternC_yellow.fbx
+  artifactKey: Guid(efd9749d773d849fca8c41ff9b177ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_patternC_yellow.fbx using Guid(efd9749d773d849fca8c41ff9b177ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5518a558e74e5ec7e85ec8e2d8cc0fea') in 0.013202 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.063726 seconds.
+  path: Assets/3D Model/Scenario/banner_red.fbx
+  artifactKey: Guid(e82680193217b4aa789fe7e8938619e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_red.fbx using Guid(e82680193217b4aa789fe7e8938619e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a48650239b223712ec740780c8b36c') in 0.014330 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.062281 seconds.
+  path: Assets/3D Model/Scenario/banner_shield_blue.fbx
+  artifactKey: Guid(cee235187a00b4e9ab4753032033f493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_shield_blue.fbx using Guid(cee235187a00b4e9ab4753032033f493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bc90878973b705d447d0b9575744f0') in 0.012980 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.063502 seconds.
+  path: Assets/3D Model/Scenario/banner_shield_brown.fbx
+  artifactKey: Guid(f0a17e4f7aa424b83883e5c09df322c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_shield_brown.fbx using Guid(f0a17e4f7aa424b83883e5c09df322c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4666cec233ca7bfc1bfad31a307eb2ae') in 0.014342 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.064604 seconds.
+  path: Assets/3D Model/Scenario/banner_shield_green.fbx
+  artifactKey: Guid(3b579a79688364d798f00d5a431103b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_shield_green.fbx using Guid(3b579a79688364d798f00d5a431103b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b4dda3fac537dcae94f89f5620c0ce') in 0.013856 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.063250 seconds.
+  path: Assets/3D Model/Scenario/banner_shield_red.fbx
+  artifactKey: Guid(22d52fbfc46d3488c85c780f9253e1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_shield_red.fbx using Guid(22d52fbfc46d3488c85c780f9253e1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244aff85cc79aa61d87452607656bdfb') in 0.013837 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.064401 seconds.
+  path: Assets/3D Model/Scenario/banner_shield_white.fbx
+  artifactKey: Guid(ff164c7186a0d46cb84d60ea39729e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/banner_shield_white.fbx using Guid(ff164c7186a0d46cb84d60ea39729e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f94dcd58517e5c87f6c7dd68ff144c') in 0.015217 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 40.748257 seconds.
+  path: Assets/3D Model/Scenario/wall_Tsplit_sloped.fbx
+  artifactKey: Guid(4a70e3d5cd0e14fa2848551cc02c2359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3D Model/Scenario/wall_Tsplit_sloped.fbx using Guid(4a70e3d5cd0e14fa2848551cc02c2359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a93d7e6a0ace82aa9889dd078ff05d7') in 0.089551 seconds 
+Number of asset objects unloaded after import = 10
