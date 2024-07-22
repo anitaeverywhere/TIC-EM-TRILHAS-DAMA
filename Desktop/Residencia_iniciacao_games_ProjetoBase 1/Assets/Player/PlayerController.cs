@@ -5,12 +5,21 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    #region Shoot Variables
+    [SerializeField] GameObject arrow;
+    private bool isAttacking;
+    private Vector3 screenPosition;
+    private Vector3 worldPosition;
+    private Plane plane = new Plane(Vector3.down, 1);
+    #endregion
 
+    #region Original Variables
     [SerializeField] private float speed;
     [SerializeField] private float rotationSpeed;
     [SerializeField] private Animator animator;
-
     private PlayerInputActions inputActions;
+
+    #endregion
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +33,7 @@ public class PlayerController : MonoBehaviour
     {
         HandleMovement();
         HandleButtonTriggered();
+        HandleAttack();
     }
 
     private void HandleButtonTriggered()
@@ -55,10 +65,38 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            // Ele está em Idle
-
-            // Muda para animação de Walk
             animator.SetBool("b_walk", false);
         }
     }
+
+    #region Attacks Methods
+    void HandleAttack()
+    {
+        if (Input.GetButtonDown("Fire1") && !isAttacking)
+        {
+            screenPosition = Input.mousePosition;
+            Ray ray = Camera.main.ScreenPointToRay(screenPosition);
+            if (plane.Raycast(ray, out float distance))
+            {
+                worldPosition = ray.GetPoint(distance);
+            }
+            Vector3 lookPosition = new Vector3(worldPosition.x, 0, worldPosition.z);
+            transform.LookAt(lookPosition);
+            rotationSpeed = 0.1f;
+            Quaternion arrowRotation = Quaternion.Euler(-90, 0, transform.rotation.eulerAngles.y);
+            GameObject arrowSpawner = transform.Find("ArrowSpawner").gameObject;
+            Arrow arrowScript = Instantiate(arrow, arrowSpawner.transform.position, arrowRotation).GetComponent<Arrow>();
+            arrowScript.toGo = worldPosition;
+            isAttacking = true;
+            animator.SetTrigger("t_attacking");
+            Invoke("HandleResetAttack", 0.5f);
+        }
+    }
+
+    void HandleResetAttack()
+    {
+        isAttacking = false;
+        rotationSpeed = 25;
+    }
+    #endregion
 }
